@@ -1,5 +1,5 @@
 Summary:	List 1394 (Firewire) Devices
-Summary(pl):	Wypisywanie urz±dzeñ 1394 (Firewire)
+Summary(pl.UTF-8):   Wypisywanie urzÄ…dzeÅ„ 1394 (Firewire)
 Name:		ls1394
 Version:	20070103
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Lists 1394 (Firewire) devices.
 
-%description -l pl
-Narzêdzie wypisuj±ce urz±dzenia 1394 (Firewire).
+%description -l pl.UTF-8
+NarzÄ™dzie wypisujÄ…ce urzÄ…dzenia 1394 (Firewire).
 
 %prep
 %setup -q -c -T
