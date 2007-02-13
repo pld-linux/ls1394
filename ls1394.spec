@@ -1,5 +1,5 @@
 Summary:	List 1394 (Firewire) Devices
-Summary(pl.UTF-8):   Wypisywanie urządzeń 1394 (Firewire)
+Summary(pl.UTF-8):	Wypisywanie urządzeń 1394 (Firewire)
 Name:		ls1394
 Version:	20070103
 Release:	1
