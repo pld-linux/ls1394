@@ -23,6 +23,7 @@ Narzędzie wypisujące urządzenia 1394 (Firewire).
 cp %{SOURCE0} %{name}
 
 %install
+rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/misc}
 install %{name} $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/misc/oui.db
